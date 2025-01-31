@@ -1,0 +1,9 @@
+.clock {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    pointer-events: none; 
+    transition: transform 0.1s ease-out;
+}

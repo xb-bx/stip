@@ -1,0 +1,14 @@
+<!DOCTYPE subscriptions [
+    <!ELEMENT subscriptions (publication+)>
+    <!ELEMENT publication (type, theme, title, frequency, price, subscription_index)>
+    <!ATTLIST publication country CDATA #REQUIRED>
+    
+    <!ELEMENT type (#PCDATA)>
+    <!ELEMENT theme (#PCDATA)>
+    <!ATTLIST theme id ID #REQUIRED>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT frequency (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ATTLIST price currency CDATA #REQUIRED>
+    <!ELEMENT subscription_index (#PCDATA)>
+]>

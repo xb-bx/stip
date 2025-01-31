@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subscriptions>
+    <publication country="UA">
+        <type>газета</type>
+        <theme id="1010">Новини</theme>
+        <title>Щоденні новини</title>
+        <frequency>Щоденно</frequency>
+        <price currency="UAH">30</price>
+        <subscription_index>1001</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>журнал</type>
+        <theme id="1010">Наука</theme>
+        <title>Світ науки</title>
+        <frequency>Щомісячно</frequency>
+        <price currency="UAH">50</price>
+        <subscription_index>1002</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>газета</type>
+        <theme id="1010">Економіка</theme>
+        <title>Фінансовий огляд</title>
+        <frequency>Щотижня</frequency>
+        <price currency="UAH">40</price>
+        <subscription_index>1003</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>журнал</type>
+        <theme id="1010">Мода</theme>
+        <title>Тренди сезону</title>
+        <frequency>Щомісячно</frequency>
+        <price currency="UAH">60</price>
+        <subscription_index>1004</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>газета</type>
+        <theme id="1010">Спорт</theme>
+        <title>Спортивний кур'єр</title>
+        <frequency>Щотижня</frequency>
+        <price currency="UAH">35</price>
+        <subscription_index>1005</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>журнал</type>
+        <theme id="1010">Технології</theme>
+        <title>Гаджети та майбутнє</title>
+        <frequency>Щомісячно</frequency>
+        <price currency="UAH">55</price>
+        <subscription_index>1006</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>газета</type>
+        <theme id="1010">Культура</theme>
+        <title>Мистецький вісник</title>
+        <frequency>Двічі на місяць</frequency>
+        <price currency="UAH">45</price>
+        <subscription_index>1007</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>журнал</type>
+        <theme id="1010">Подорожі</theme>
+        <title>Мандри світом</title>
+        <frequency>Щоквартально</frequency>
+        <price currency="UAH">70</price>
+        <subscription_index>1008</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>газета</type>
+        <theme id="1010">Політика</theme>
+        <title>Аналітичний погляд</title>
+        <frequency>Щотижня</frequency>
+        <price currency="UAH">50</price>
+        <subscription_index>1009</subscription_index>
+    </publication>
+    <publication country="UA">
+        <type>журнал</type>
+        <theme id="1010">Здоров'я</theme>
+        <title>Секрети довголіття</title>
+        <frequency>Щомісячно</frequency>
+        <price currency="UAH">65</price>
+        <subscription_index>1010</subscription_index>
+    </publication>
+</subscriptions>

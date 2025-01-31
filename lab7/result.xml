@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subscriptions>
+    <publication>
+        <type>газета</type>
+        <theme>Новини</theme>
+        <title>Щоденні новини</title>
+        <frequency>Щоденно</frequency>
+        <price>30</price>
+        <subscription_index>1001</subscription_index>
+    </publication>
+    <publication>
+        <type>журнал</type>
+        <theme>Наука</theme>
+        <title>Світ науки</title>
+        <frequency>Щомісячно</frequency>
+        <price>50</price>
+        <subscription_index>1002</subscription_index>
+    </publication>
+    <publication>
+        <type>газета</type>
+        <theme>Економіка</theme>
+        <title>Фінансовий огляд</title>
+        <frequency>Щотижня</frequency>
+        <price>40</price>
+        <subscription_index>1003</subscription_index>
+    </publication>
+    <publication>
+        <type>журнал</type>
+        <theme>Мода</theme>
+        <title>Тренди сезону</title>
+        <frequency>Щомісячно</frequency>
+        <price>60</price>
+        <subscription_index>1004</subscription_index>
+    </publication>
+    <publication>
+        <type>газета</type>
+        <theme>Спорт</theme>
+        <title>Спортивний кур'єр</title>
+        <frequency>Щотижня</frequency>
+        <price>35</price>
+        <subscription_index>1005</subscription_index>
+    </publication>
+    <publication>
+        <type>журнал</type>
+        <theme>Технології</theme>
+        <title>Гаджети та майбутнє</title>
+        <frequency>Щомісячно</frequency>
+        <price>55</price>
+        <subscription_index>1006</subscription_index>
+    </publication>
+    <publication>
+        <type>газета</type>
+        <theme>Культура</theme>
+        <title>Мистецький вісник</title>
+        <frequency>Двічі на місяць</frequency>
+        <price>45</price>
+        <subscription_index>1007</subscription_index>
+    </publication>
+    <publication>
+        <type>журнал</type>
+        <theme>Подорожі</theme>
+        <title>Мандри світом</title>
+        <frequency>Щоквартально</frequency>
+        <price>70</price>
+        <subscription_index>1008</subscription_index>
+    </publication>
+    <publication>
+        <type>газета</type>
+        <theme>Політика</theme>
+        <title>Аналітичний погляд</title>
+        <frequency>Щотижня</frequency>
+        <price>50</price>
+        <subscription_index>1009</subscription_index>
+    </publication>
+    <publication>
+        <type>журнал</type>
+        <theme>Здоров'я</theme>
+        <title>Секрети довголіття</title>
+        <frequency>Щомісячно</frequency>
+        <price>65</price>
+        <subscription_index>1010</subscription_index>
+    </publication>
+</subscriptions>

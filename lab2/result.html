@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <p>Завдання 1</p>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#" onmouseover="showMenu('services-menu')" onmouseout="hideMenu('services-menu')">Services ▼</a>
+                <ul class="submenu" id="services-menu" onmouseover="showMenu('services-menu')" onmouseout="hideMenu('services-menu')">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Marketing</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <p>Завдання 2</p>
+    <img id="img1" src="img1.png">
+    <img id="img2" src="img2.png">
+    <br>
+    <button class="button" onclick="swap()">Переставити</button>
+</body>
+</html>

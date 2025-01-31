@@ -1,0 +1,12 @@
+#blueBlock {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+#task3 {
+    margin-top: 300px;
+}
+#hiddenInput {
+    display: none
+}

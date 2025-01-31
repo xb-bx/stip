@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+<p>Завдання 1. Варіант 15. Після натискання на кнопку видалити всі елементи &lt;br&gt;</p>
+<br>
+Текст розділений 
+<br>
+тегом &lt;br&gt;
+<br>
+<button class="button" id="deleteBrButton">Видалити &lt;br&gt;</button>
+<hr class="separator">
+
+<p>Завдання 2. Варіант 15. Блок блакитного кольору рухається зверху вниз, зменшується,
+стає синім, переміщається у початкову точку,
+зменшується, стає чорним</p>
+<br>
+<button class="button" id="animateButton">Анімувати</button>
+<br>
+<div id="blueBlock"></div>
+<br>
+<p id="task3">Завдання 3</p>
+<p>Додати на сторінку форму, що містить декілька елементів форми, при
+цьому при виборі певного значення в одному елементі (див. приклади):</p>
+<ul>
+    <li>відображати інший елемент (для парних варіантів)</li>
+    <li>робити недоступним інший елемент (для непарних варіантів). </li>
+<ul>
+<div class="form-container">
+    <form>
+        <label>Введіть пароль: </label>
+        <br>
+        <input type="password"/>
+        <br>
+        <label>Я хочу указати контрольне питання</label>
+        <input id="check" value="off" type="checkbox"/>
+        <br>
+        <div id="hiddenInput">
+            <label>Питання: </label>
+            <br>
+            <input type="text"/>
+        </div>
+        <input type="radio" name="pizza" value="1" checked/><label>Маргарита</label><br>
+        <input type="radio" name="pizza" value="2"/><label>Чотири сира</label><br>
+        <input type="radio" name="pizza" value="3"/><label>Свій варіант</label><br>
+        <input type="text" id="ownVariant"/>
+        <br>
+    </form>
+</div>
+</body>
+</html>

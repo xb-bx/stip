@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+<p>Завдання 1</p>
+<div class="form-container">
+    <h2>Форма реєстрації</h2>
+    <form id="registrationForm">
+        <p id="generalError" class="error"></p>
+        <label>Ім'я:</label>
+        <input type="text" id="name">
+        <span class="error" id="nameError">Введіть коректне ім'я (лише літери).</span>
+
+        <label>Прізвище:</label>
+        <input type="text" id="surname">
+        <span class="error" id="surnameError">Введіть коректне прізвище (лише літери).</span>
+
+        <label>Найменування організації:</label>
+        <input type="text" id="organization">
+        <span class="error" id="organizationError">Це поле не може бути порожнім.</span>
+
+        <label>Номер кредитної картки:</label>
+        <input type="text" id="cardNumber" maxlength="16">
+        <span class="error" id="cardError">Номер карти повинен містити 16 цифр.</span>
+
+        <label>Номер телефону:</label>
+        <input type="text" id="phone" placeholder="+380123456789">
+        <span class="error" id="phoneError">Введіть коректний номер телефону (+380XXXXXXXXX).</span>
+
+        <label>Адреса електронної пошти:</label>
+        <input type="email" id="email">
+        <span class="error" id="emailError">Введіть коректний email.</span>
+
+        <div class="buttons">
+            <button type="submit" class="button">Надіслати</button>
+            <button type="button" class="button" id="clearForm">Очистити</button>
+        </div>
+    </form>
+
+</div>
+<p>Завдання 2</p>
+<p>15. Дана рядок &#39;aAXa aeffa aGha aza ax23a a3sSa&#39;. Напишіть
+регулярний вираз, який знайде рядки наступного вигляду: по краях стоять
+літери &#39;a&#39;, а між ними - маленькі латинські літери, не торкнувшись інших.</p>
+<label>Рядок</label><input id="regexString" type="text" value="aAXa aeffa aGha aza ax23a a3sSa"/></br>
+<label>Знайдені рядки</label>
+<div id="regexResult"/>
+
+</body>
+</html>
