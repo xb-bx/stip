@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+</head>
+<body>
+    <label for="dish">Страва:</label>
+    <select id="dish">
+        <option value="option1">Піца</option>
+        <option value="option2">Бургер</option>
+        <option value="option3">Шаурма</option>
+    </select>
+    <label for="number">Кількість</label>
+    <input id="number" type="number" value="1" min="1"/>
+    <button onclick="createOrder()">Створити</button>
+    <p id="result"></p>
+</body>
+</html>

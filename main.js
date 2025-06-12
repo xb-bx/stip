@@ -2,52 +2,86 @@ const labs = {
     1: {
         condition: "Умова лабораторної роботи 1: Опис умови першої лабораторної роботи.",
         resultLink: "index.html",
-        codeLink: "index.html"
+        code: "index.html"
     },
     2: {
         condition: "Умова лабораторної роботи 2: Варіант 1. #1 Горизонтальне дворівневе меню, яке розкривається при наведенні покажчика миші. Другий рівень меню приховується, коли вказівник миші залишає область вибраного пункту або меню; #2 Розмістіть на сторінці два зображення та кнопку Переставити. При натисканні на цю кнопку зображення слід поміняти місцями.",
         result: "lab2/result.html",
-        codeLink: "https://github.com/xb-bx/stip/lab2"
+        code: "https://github.com/xb-bx/stip/tree/master/lab2"
     },
     3: {
         condition: "Умова лабораторної роботи 3: Варіант 5. За вказівником миші переміщується годинник і дата (передбачити можливість встановлення годинника та дати).",
         result: "lab3/result.html",
-        code: "https://github.com/xb-bx/stip/lab3"
+        code: "https://github.com/xb-bx/stip/tree/master/lab3"
     },
     4: {
         condition: "1. Створити сторінку з динамічним змістом \"Перевірка значень,\nвведених користувачем поля форми для реєстрації\". Форма повинна\nмістити поля «Ім'я», «Прізвище», «Найменування організації», «Номер\nкредитної картки», «Номер телефону», «Адреса електронної пошти»,\nкнопки «Надіслати» та «Очистити».\n2. Здійснити перевірку заповненості даними всіх полів.\n3. Побудувати шаблон для перевірки даних кредитної картки з\nобмеженням кількості спроб неправильного введення даних трьома.\n4. Остання перевірка має контролювати структуру та вміст полів\n(правильність введення імені та прізвища, номери телефону, електронної\nадреси.).\n5. Виконати завдання, що відповідає порядковому номеру\nстудента у журналі групи.\n15. Дана рядок 'aAXa aeffa aGha aza ax23a a3sSa'. Напишіть\nрегулярний вираз, який знайде рядки наступного вигляду: по краях стоять\nлітери 'a', а між ними - маленькі латинські літери, не торкнувшись інших.",
         result: "lab4/result.html",
-        code: "https://github.com/xb-bx/stip/lab4/"
+        code: "https://github.com/xb-bx/stip/tree/master/lab4/"
     },
     5: {
         condition: "1.Після натискання на кнопку видалити всі елементи <br>\n2.Блок блакитного кольору рухається зверху вниз, зменшується,\nстає синім, переміщається у початкову точку,\nзменшується, стає чорним\n3.Додати на сторінку форму, що містить декілька елементів форми, при\nцьому при виборі певного значення в одному елементі (див. приклади):",
         result: "lab5/result.html",
-        code: "https://github.com/xb-bx/stip/lab5"
+        code: "https://github.com/xb-bx/stip/tree/master/lab5"
     },
     6: {
         condition: "Створити кнопку, на кліку на якій заданий елемент на сторінці\nповодитиметься таким чином:\nКоричневий квадрат 50*50\nпікс.\n\n1.Зникає\n2. З'являється на 50 пікселів правіше\n3. Збільшується у 2 рази.\n4. Рухається вниз на 100 пікселів.\n5. Змінює колір на червоний\n6. Плавно зникає.",
         result: "lab6/result.html",
-        code: "https://github.com/xb-bx/stip/lab6"
+        code: "https://github.com/xb-bx/stip/tree/master/lab6"
     },
     7: {
         condition: "1. Побудувати графічно статичну та динамічну модель для заданого\nваріанту.\n2. Створіть XML-документ, використовуючи інформаційну модель,\nпобудовану в першій частині лабораторної роботи. Документ має вміщати\nякнайменше ДЕСЯТЬ записів!",
         result: "lab7/result.html",
-        code: "https://github.com/xb-bx/stip/lab7"
+        code: "https://github.com/xb-bx/stip/tree/master/lab7"
     },
     8: {
         condition: "1. Створити опис структури документа XML за допомогою DTD-схеми. DTD-схема\nобов’язково має вміщати листи атрибутів елементів (3-4), має бути вказано\nмножинність входження в елементів XML –документ.\n2. Виконати опис структури документа XML за допомогою XML Schema . Вона має\nбути не згенерована автоматично! Та обов’язково вміщати елементи complexType (3-\n4).",
         result: "lab8/result.html",
-        code: "https://github.com/xb-bx/stip/lab8"
+        code: "https://github.com/xb-bx/stip/tree/master/lab8"
     },
     9: {
         condition: "1) Створіть власні шаблони XSL. Як вихідний файл використовуйте\nрезультати робіт 6 і 7.\n2) Виконайте сортування записів за одним із можливих критеріїв та\nфільтрацію даних за одним із можливих показників",
         result: "lab9/result.html",
-        code: "https://github.com/xb-bx/stip/lab9"
+        code: "https://github.com/xb-bx/stip/tree/master/lab9"
     },
     10: {
         condition: "Завантажте документ XML, розроблений у попередніх роботах, в об'єкт\nдокумента та відобразіть у вікні браузера.\n2. Використовуючи методи DOM XML, сформуйте HTML-сторінку, що містить\nтаблицю з кількох стовпців .\n3. Використовуючи методи DOM XML, замініть цифрові значення їх словесними\nеквівалентами.",
         result: "lab10/result.html",
-        code: "https://github.com/xb-bx/stip/lab10"
+        code: "https://github.com/xb-bx/stip/tree/master/lab10"
+    },
+    21: {
+        condition: "Встановлення та налаштування веб-сервера.\nВивчення протоколу HTTP ( Hyper Text Transfer Protocol ) та SSI.",
+        result: "lab21/result.html",
+    },
+    22: {
+        condition: "Дослідження роботи протоколу HTTP",
+        result: "lab22/result.html",
+        code: "https://github.com/xb-bx/stip/tree/master/lab22/code"
+    },
+    23: {
+        condition: "Вивчення та застосування AJAX для асинхронної взаємодії з сервером",
+        result: "lab23/result.html",
+        code: "https://github.com/xb-bx/stip/tree/master/lab23/code"
+    },
+    24: {
+        condition: "Встановлення та налаштування Node.js та Express, обробка GET та POST-запитів",
+        result: "lab24/result.html",
+        code: "https://github.com/xb-bx/stip/tree/master/lab24/code"
+    },
+    25: {
+        condition: "Мікросервіси та API-first підхід",
+        result: "lab25/result.html",
+        code: "https://github.com/xb-bx/stip/tree/master/lab25/code"
+    },
+    26: {
+        condition: "Контейнеризація та розгортання",
+        result: "lab26/result.html",
+        code: "https://github.com/xb-bx/stip/tree/master/lab26/code"
+    },
+    27: {
+        condition: "Хмарні технології та серверлес-архітектура",
+        result: "lab27/result.html",
+        code: "https://github.com/xb-bx/stip/tree/master/lab27/code"
     },
 
 };
